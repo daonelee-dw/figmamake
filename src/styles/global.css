@@ -1,0 +1,315 @@
+/**
+ * Linear Design System
+ * Version: 1.0.0
+ * Description: Design tokens extracted from Linear.app
+ * Source: https://linear.app
+ */
+
+:root {
+  /* Colors - Semantic - Background */
+  --color-bg-primary: #080a0a;
+  --color-bg-secondary: #121314;
+  --color-bg-tertiary: #1a1c1e;
+
+  /* Colors - Semantic - Text */
+  --color-text-primary: #f7f8f8;
+  --color-text-secondary: #8a8f98;
+  --color-text-tertiary: #626669;
+  --color-text-quaternary: #3e4248;
+
+  /* Colors - Semantic - Border */
+  --color-border-primary: rgba(255, 255, 255, 0.08);
+  --color-border-secondary: rgba(255, 255, 255, 0.04);
+  --color-border-tertiary: rgba(255, 255, 255, 0.02);
+
+  /* Colors - Semantic - Interactive */
+  --color-interactive-hover: rgba(255, 255, 255, 0.05);
+  --color-interactive-active: rgba(255, 255, 255, 0.08);
+  --color-interactive-disabled: rgba(255, 255, 255, 0.02);
+
+  /* Colors - Accent */
+  --color-accent-blue: #5e6ad2;
+  --color-accent-indigo: #6366f1;
+  --color-accent-green: #4ac086;
+  --color-accent-red: #f27120;
+  --color-accent-yellow: #ffc107;
+  --color-accent-teal: #14b8a6;
+
+  /* Colors - Status */
+  --color-status-success: #4ac086;
+  --color-status-warning: #ffc107;
+  --color-status-error: #f27120;
+  --color-status-info: #5e6ad2;
+
+  /* Typography - Font Family */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-mono: 'Monaco', 'Courier New', monospace;
+
+  /* Typography - Font Weight */
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Typography - Title 1 */
+  --title-1-size: 48px;
+  --title-1-line-height: 56px;
+  --title-1-letter-spacing: -0.02em;
+  --title-1-weight: 600;
+
+  /* Typography - Title 2 */
+  --title-2-size: 32px;
+  --title-2-line-height: 40px;
+  --title-2-letter-spacing: -0.01em;
+  --title-2-weight: 600;
+
+  /* Typography - Title 3 */
+  --title-3-size: 28px;
+  --title-3-line-height: 36px;
+  --title-3-letter-spacing: -0.01em;
+  --title-3-weight: 600;
+
+  /* Typography - Title 4 */
+  --title-4-size: 24px;
+  --title-4-line-height: 32px;
+  --title-4-letter-spacing: -0.005em;
+  --title-4-weight: 600;
+
+  /* Typography - Title 5 */
+  --title-5-size: 20px;
+  --title-5-line-height: 28px;
+  --title-5-letter-spacing: 0em;
+  --title-5-weight: 600;
+
+  /* Typography - Title 6 */
+  --title-6-size: 18px;
+  --title-6-line-height: 26px;
+  --title-6-letter-spacing: 0em;
+  --title-6-weight: 600;
+
+  /* Typography - Title 7 */
+  --title-7-size: 16px;
+  --title-7-line-height: 24px;
+  --title-7-letter-spacing: 0em;
+  --title-7-weight: 600;
+
+  /* Typography - Title 8 */
+  --title-8-size: 14px;
+  --title-8-line-height: 22px;
+  --title-8-letter-spacing: 0em;
+  --title-8-weight: 600;
+
+  /* Typography - Title 9 */
+  --title-9-size: 12px;
+  --title-9-line-height: 18px;
+  --title-9-letter-spacing: 0em;
+  --title-9-weight: 600;
+
+  /* Typography - Text Large */
+  --text-large-size: 18px;
+  --text-large-line-height: 26px;
+  --text-large-letter-spacing: 0em;
+  --text-large-weight: 400;
+
+  /* Typography - Text Regular */
+  --text-regular-size: 14px;
+  --text-regular-line-height: 22px;
+  --text-regular-letter-spacing: 0em;
+  --text-regular-weight: 400;
+
+  /* Typography - Text Small */
+  --text-small-size: 13px;
+  --text-small-line-height: 20px;
+  --text-small-letter-spacing: 0em;
+  --text-small-weight: 400;
+
+  /* Typography - Text Mini */
+  --text-mini-size: 12px;
+  --text-mini-line-height: 18px;
+  --text-mini-letter-spacing: 0em;
+  --text-mini-weight: 400;
+
+  /* Typography - Text Micro */
+  --text-micro-size: 11px;
+  --text-micro-line-height: 16px;
+  --text-micro-letter-spacing: 0em;
+  --text-micro-weight: 400;
+
+  /* Typography - Text Tiny */
+  --text-tiny-size: 10px;
+  --text-tiny-line-height: 14px;
+  --text-tiny-letter-spacing: 0em;
+  --text-tiny-weight: 400;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+  --spacing-3xl: 48px;
+  --spacing-4xl: 64px;
+
+  /* Border Radius */
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.25);
+
+  /* Effects - Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Effects - Blur */
+  --blur-sm: 4px;
+  --blur-md: 8px;
+  --blur-lg: 12px;
+
+  /* Components - Button */
+  --button-padding-sm: 8px 12px;
+  --button-padding-md: 10px 16px;
+  --button-padding-lg: 12px 20px;
+  --button-border-radius: 8px;
+  --button-font-size: 14px;
+  --button-font-weight: 600;
+  --button-transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Components - Input */
+  --input-padding: 10px 12px;
+  --input-border-radius: 8px;
+  --input-font-size: 14px;
+  --input-border: 1px solid rgba(255, 255, 255, 0.08);
+  --input-bg: rgba(255, 255, 255, 0.02);
+
+  /* Components - Card */
+  --card-padding: 16px;
+  --card-border-radius: 12px;
+  --card-bg: #121314;
+  --card-border: 1px solid rgba(255, 255, 255, 0.08);
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  /* Components - Badge */
+  --badge-padding: 4px 8px;
+  --badge-border-radius: 4px;
+  --badge-font-size: 12px;
+  --badge-font-weight: 500;
+}
+
+/* Utility Classes for Typography */
+.title-1 {
+  font-size: var(--title-1-size);
+  line-height: var(--title-1-line-height);
+  letter-spacing: var(--title-1-letter-spacing);
+  font-weight: var(--title-1-weight);
+}
+
+.title-2 {
+  font-size: var(--title-2-size);
+  line-height: var(--title-2-line-height);
+  letter-spacing: var(--title-2-letter-spacing);
+  font-weight: var(--title-2-weight);
+}
+
+.title-3 {
+  font-size: var(--title-3-size);
+  line-height: var(--title-3-line-height);
+  letter-spacing: var(--title-3-letter-spacing);
+  font-weight: var(--title-3-weight);
+}
+
+.title-4 {
+  font-size: var(--title-4-size);
+  line-height: var(--title-4-line-height);
+  letter-spacing: var(--title-4-letter-spacing);
+  font-weight: var(--title-4-weight);
+}
+
+.title-5 {
+  font-size: var(--title-5-size);
+  line-height: var(--title-5-line-height);
+  letter-spacing: var(--title-5-letter-spacing);
+  font-weight: var(--title-5-weight);
+}
+
+.title-6 {
+  font-size: var(--title-6-size);
+  line-height: var(--title-6-line-height);
+  letter-spacing: var(--title-6-letter-spacing);
+  font-weight: var(--title-6-weight);
+}
+
+.title-7 {
+  font-size: var(--title-7-size);
+  line-height: var(--title-7-line-height);
+  letter-spacing: var(--title-7-letter-spacing);
+  font-weight: var(--title-7-weight);
+}
+
+.title-8 {
+  font-size: var(--title-8-size);
+  line-height: var(--title-8-line-height);
+  letter-spacing: var(--title-8-letter-spacing);
+  font-weight: var(--title-8-weight);
+}
+
+.title-9 {
+  font-size: var(--title-9-size);
+  line-height: var(--title-9-line-height);
+  letter-spacing: var(--title-9-letter-spacing);
+  font-weight: var(--title-9-weight);
+}
+
+.text-large {
+  font-size: var(--text-large-size);
+  line-height: var(--text-large-line-height);
+  letter-spacing: var(--text-large-letter-spacing);
+  font-weight: var(--text-large-weight);
+}
+
+.text-regular {
+  font-size: var(--text-regular-size);
+  line-height: var(--text-regular-line-height);
+  letter-spacing: var(--text-regular-letter-spacing);
+  font-weight: var(--text-regular-weight);
+}
+
+.text-small {
+  font-size: var(--text-small-size);
+  line-height: var(--text-small-line-height);
+  letter-spacing: var(--text-small-letter-spacing);
+  font-weight: var(--text-small-weight);
+}
+
+.text-mini {
+  font-size: var(--text-mini-size);
+  line-height: var(--text-mini-line-height);
+  letter-spacing: var(--text-mini-letter-spacing);
+  font-weight: var(--text-mini-weight);
+}
+
+.text-micro {
+  font-size: var(--text-micro-size);
+  line-height: var(--text-micro-line-height);
+  letter-spacing: var(--text-micro-letter-spacing);
+  font-weight: var(--text-micro-weight);
+}
+
+.text-tiny {
+  font-size: var(--text-tiny-size);
+  line-height: var(--text-tiny-line-height);
+  letter-spacing: var(--text-tiny-letter-spacing);
+  font-weight: var(--text-tiny-weight);
+}
